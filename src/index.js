@@ -12,7 +12,7 @@ app.use(morgan('tiny'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-
+app.get('/', (req, res) => res.json({ message: 'hello !' }));
 app.use('/api', routes);
 
 const publicPath = path.resolve('public');
@@ -24,7 +24,6 @@ app.all('*', (req, res) => {
 
 const server = app.listen(3000, () => {
   const serverAddress = server.address();
-
   // eslint-disable-next-line no-console
   console.log(`Server start at port ${serverAddress.port}`);
 });
