@@ -3,9 +3,7 @@ This project is create with NodeJS with Mongo DB
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -15,5 +13,5 @@ You will also see any lint errors in the console.
 
 ## Mongo DB
 
-### `docker run --name my-mongo -d -p 27017:27017 mongo:4.2`
+#### `docker run --name my-mongo -d -p 27017:27017 mongo:4.2`
 
