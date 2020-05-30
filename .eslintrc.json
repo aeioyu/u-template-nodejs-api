@@ -13,5 +13,7 @@
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {
+    "import/prefer-default-export": ["warn"]
+  }
 }
