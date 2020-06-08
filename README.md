@@ -1,4 +1,4 @@
-# nodejs
+# NodeJS
 
 boilerplate for Nodejs API with express. intregated with eslint, babel, prettier, nodemon
 
