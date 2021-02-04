@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "u-template-nodejs-api",
   "version": "1.0.0",
   "description": "boilerplate for nodejs application",
   "main": "src/index.js",
